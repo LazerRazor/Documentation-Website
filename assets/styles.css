@@ -1,0 +1,202 @@
+body
+{
+    margin: 0;
+}
+
+/* NavBar Elements */
+    nav
+    {
+        position: absolute;
+        z-index: 2;
+        height: 78px;
+        width : 100vw;
+        position: fixed;
+        background-color: white;
+        display: flex;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+    .navbarLogo
+    {
+        position:relative;
+        left:5%;
+    }
+
+    .navbarElements
+    {
+        display: flex; gap: 55px; position: relative;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2rem;
+        left: 52%;
+        padding: 17px;
+    }
+
+.landingPage
+{
+    height : 100vh;
+    background-color: #5e17ab;
+    display: flex;
+}
+
+.landingImage
+{
+    position: relative;
+    left:32.5vw;
+    top:30vh;
+}
+
+.landingText
+{
+    text-align: center;
+    position: relative;
+    top:32vh;
+    left:13vw;
+    text-align: center;
+    color: white;
+}
+
+.firstLine
+{
+    font-size: 5.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.secondLine
+{
+    margin-top: 25px;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #88ff55
+
+}
+.Hard
+{
+    color: red;
+}
+
+.momentsSection
+{
+    height : 120vh;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 100px;
+    padding-left: 150px;
+    font-weight: 500;
+    color: #5dd529;
+}
+
+.momentsTitle
+{
+    font-size: 4rem;
+    font-weight: 500;
+    color:#5e17ab;
+    text-align: center;
+
+}
+
+.momentsResultant, 
+.momentsDisplacement
+{
+ margin-top: 100px;
+ display: flex;
+}
+
+.resultImage
+{
+    position: relative;
+}
+.resultText
+{
+    position: relative;
+    font-size: 3rem;
+    left: 10vw;
+    top: 120px;
+
+}
+
+.k2Text
+{
+    position: relative;
+    font-size: 3.2rem;
+    left: 15vw;
+    top: 120px;
+
+}
+
+.kinematicsSection
+{
+    height : 120vh;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 100px;
+    padding-left: 150px;
+    font-weight: 500;
+    background-color: #5e17ab;
+    color: #5dd529;
+}
+.kinematicsTitle
+{
+    font-size: 4rem;
+    font-weight: 500;
+    color:white;
+    text-align: center;
+}
+
+.kinematicsBody
+{
+    margin-left: 75px;
+}
+.displacementImage
+{
+    position: relative;
+    left: 45vw;
+}
+.displacementText
+{
+    position: relative;
+    position: relative;
+    font-size: 3rem;
+    right:35vw;
+    top: 120px;
+}
+
+.kText
+{
+    position: relative;
+    position: relative;
+    font-size: 3.2rem;
+    right:30vw;
+    top: 120px;
+}
+
+.footer
+{
+    height: 5vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color:rgb(28, 28, 28);
+
+    padding:50px;
+
+    background-color:#dee2dc;
+}
+
+.download{
+    font-family: 'Ubuntu', sans-serif;
+    padding:40px;
+
+    position: fixed;
+    z-index: 10;
+    width:300px;
+    background-color: #5dd529;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    bottom: 50px;
+    right: 50px;
+}
